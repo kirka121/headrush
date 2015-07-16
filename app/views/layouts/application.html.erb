@@ -8,10 +8,9 @@
   <%= include_gon(init: true) %>
 </head>
 <body>
+  <%= render partial: 'layouts/partials/header' %>
 
-kirill: <br/>
-
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>
