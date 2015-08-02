@@ -15,9 +15,11 @@ gem 'bootstrap-sass'
 gem 'sweetalert-rails'
 gem 'font-awesome-rails'
 
-
 #javascript
 gem 'gon'
+
+#functionality
+gem 'devise'
 
 #testing and workflow
 group :development, :test do
